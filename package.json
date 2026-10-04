@@ -1,0 +1,17 @@
+{
+  "name": "block-at-timestamp",
+  "version": "0.1.0",
+  "description": "Find the block for a given timestamp",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.ts",
+    "build": "tsc",
+    "test": "node --test \"src/**/*.test.ts\""
+  },
+  "engines": { "node": ">=22.18" },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^7.0.2"
+  }
+}
